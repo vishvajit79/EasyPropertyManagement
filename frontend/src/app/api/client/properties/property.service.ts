@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import {HttpClient, HttpHeaders} from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 
@@ -44,7 +44,12 @@ export class PropertyService {
   public createProperty(
     property: any = {}
   ){
-    return this.http.post(NEW_PROPERTY_PATH, {property})
+    console.log(JSON.parse(JSON.stringify(property)));
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type':  'application/json'})
+    };
+    return this.http.post(NEW_PROPERTY_PATH, JSON.parse(JSON.stringify(property)), httpOptions)
       .subscribe((res) => console.log(res));
   }
 }

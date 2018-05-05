@@ -21,6 +21,7 @@ import { UserService } from './core/user.service';
 import { ReactiveFormsModule } from '@angular/forms';
 import { rootRouterConfig } from './app.routes';
 import { PropdetailComponent } from './propdetail/propdetail.component';
+import { AddPropertyComponent } from './add-property/add-property.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { PropdetailComponent } from './propdetail/propdetail.component';
     LoginComponent,
     UserComponent,
     RegisterComponent,
-    PropdetailComponent
+    PropdetailComponent,
+    AddPropertyComponent
   ],
   imports: [
     BrowserModule,

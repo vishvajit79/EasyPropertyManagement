@@ -1,5 +1,8 @@
 <div class="container-fluid p-5">
   <div class="row mb-5">
+    <div class="col-md-6 offset-md-3 text-center mb-2">
+      <a [href]="'/new'" class="btn btn-dark box light20">Add New Property</a>
+    </div>
     <div class="col-md-12 text-center">
       <h2 class="bold28 unique_green_100 mb-4">Properties:</h2>
       <div class="input-group mb-3 col-md-4 offset-md-4">
@@ -7,7 +10,7 @@
       </div>
       <ul class="list-group col-md-6 offset-md-3 list-background">
         <li class="list-group-item mb-2 box" *ngFor="let prop of properties | filter:searchList">
-          <a class="light20 ocean_blue_60" [href]="'/properties/' + prop._id">{{prop.name}}<p class="light20 unique_green_80">{{prop.address}}</p></a>
+          <a class="light20 ocean_blue_60" [href]="'/properties/' + prop._id">{{prop.name}}<p class="light20 unique_green_80">{{prop.address}}</p></a><button type="button">Delete</button>
         </li>
       </ul>
     </div>

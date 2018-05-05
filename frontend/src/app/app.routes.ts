@@ -6,11 +6,13 @@ import { RegisterComponent } from './register/register.component';
 import { UserResolver } from './user/user.resolver';
 import { AuthGuard } from './core/auth.guard';
 import {PropdetailComponent} from "./propdetail/propdetail.component";
+import {AddPropertyComponent} from "./add-property/add-property.component";
 
 export const rootRouterConfig: Routes = [
   { path: '', redirectTo: 'user', pathMatch: 'full' },
   { path: 'login', component: LoginComponent, canActivate: [AuthGuard] },
   { path: 'register', component: RegisterComponent, canActivate: [AuthGuard] },
   { path: 'user', component: UserComponent,  resolve: { data: UserResolver}},
-  { path: 'properties/:id', component: PropdetailComponent,  resolve: { data: UserResolver}}
+  { path: 'properties/:id', component: PropdetailComponent,  resolve: { data: UserResolver}},
+  { path: 'new', component: AddPropertyComponent,  resolve: { data: UserResolver}}
 ];
