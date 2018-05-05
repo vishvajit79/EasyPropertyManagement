@@ -25,4 +25,5 @@ export class PropertyService {
     public insertProperty(
         query: any= {}
     ):Promise<String> { return this.dao.insert(query); };
+
 }

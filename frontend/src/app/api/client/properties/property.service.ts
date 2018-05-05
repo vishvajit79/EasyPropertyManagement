@@ -44,7 +44,6 @@ export class PropertyService {
   public createProperty(
     property: any = {}
   ){
-    console.log(JSON.parse(JSON.stringify(property)));
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type':  'application/json'})

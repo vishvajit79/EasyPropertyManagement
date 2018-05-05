@@ -10,10 +10,10 @@ controller.post('/', async (req, res) => {
     const properties = await propertyService.listProperties(query, req.query.offset, req.query.limit);
     res.send(properties);
 });
-// controller.get('/:_propId', async (req,res) => {
-//     const property = await propertyService.getPropertyId(req.params._propId);
-//     res.send(property);
-// });
+controller.get('/:_propId', async (req, res) => {
+    const property = await propertyService.getPropertyId(req.params._propId);
+    res.send(property);
+});
 controller.post('/new', async (req, res) => {
     const query = req.body;
     const property = await propertyService.insertProperty(query);
