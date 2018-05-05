@@ -43,6 +43,7 @@ export class AddPropertyComponent implements OnInit {
   createProperty(value) {
     console.log(value);
     this.propertyService.createProperty(value);
+    this.addPropertyForm.reset();
   }
 
   createItem(): FormGroup {
