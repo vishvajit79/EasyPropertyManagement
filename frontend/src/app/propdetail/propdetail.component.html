@@ -1,0 +1,21 @@
+<div class="container-fluid p-5">
+  <div class="row mb-5">
+    <div class="col-md-12 text-center">
+      <div *ngFor="let prop of propDetail">
+        <h2 class="bold28 unique_green_100 mb-4">Units of {{prop.name}}</h2>
+        <p class="light20 ocean_blue_100">Adrress: {{prop.address}}</p>
+        <div class="input-group mb-3 col-md-6 offset-md-3">
+          <input [(ngModel)]="searchUnit" class="form-control light20 unique_green_100 text-center shadow" placeholder="Search by unit floor, rent or number">
+        </div>
+        <ul class="list-group col-md-6 offset-md-3 list-background">
+          <li class="list-group-item mb-2 box" *ngFor="let unit of prop.units | filter:searchUnit">
+            Number: <span class="light20 unique_green_80">{{unit.number}}</span> Floor: <span class="light20 unique_green_80">{{unit.floor}}</span> Rent: <span class="light20 unique_green_80">{{unit.rent}}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="row mb-5">
+    <i class="fas fa-plus-circle fa-7x"></i>
+  </div>
+</div>

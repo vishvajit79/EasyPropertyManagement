@@ -5,6 +5,7 @@ import { Observable } from 'rxjs/Observable';
 import { APIConfig } from '../api.config';
 
 const PROPERTIES_PATH = `${APIConfig.BASE_API_PATH}/api/properties`;
+const NEW_PROPERTY_PATH = `${APIConfig.BASE_API_PATH}/api/properties/new`;
 
 export interface Unit {
   number: string;
@@ -38,5 +39,12 @@ export class PropertyService {
         offset: `${params.offset}`
       }
     });
+  }
+
+  public createProperty(
+    property: any = {}
+  ){
+    return this.http.post(NEW_PROPERTY_PATH, {property})
+      .subscribe((res) => console.log(res));
   }
 }
