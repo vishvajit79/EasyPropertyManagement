@@ -1,0 +1,97 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-bottom: 3rem;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.bold72 {
+  font-size: 72px;
+  font-weight: bold
+}
+
+.bold28 {
+  font-size: 28px;
+  font-weight: bold
+}
+
+.bold15 {
+  font-size: 15px;
+  font-weight: bold
+}
+
+.bold20 {
+  font-size: 20px;
+  font-weight: bold
+}
+
+.bold50 {
+  font-size: 35px;
+  font-weight: bold
+}
+
+.light36 {
+  font-size: 36px;
+  font-weight: lighter
+}
+
+.light20 {
+  font-size: 20px;
+  font-weight: lighter
+}
+
+.ocean_blue_100 {
+  color: rgba(47, 61, 84, 1)
+}
+
+.ocean_blue_80 {
+  color: rgba(47, 61, 84, 0.8)
+}
+
+.ocean_blue_60 {
+  color: rgba(47, 61, 84, 0.6)
+}
+
+.ocean_blue_40 {
+  color: rgba(47, 61, 84, 0.4)
+}
+
+.ocean_blue_20 {
+  color: rgba(47, 61, 84, 0.2)
+}
+
+.unique_green_100 {
+  color: rgba(34, 206, 153, 1)
+}
+
+.unique_green_80 {
+  color: rgba(34, 206, 153, 0.8)
+}
+
+.unique_green_60 {
+  color: rgba(34, 206, 153, 0.6)
+}
+
+.unique_green_40 {
+  color: rgba(34, 206, 153, 0.4)
+}
+
+.unique_green_20 {
+  color: rgba(34, 206, 153, 0.2)
+}
+
+.light_blue_100 {
+  color: rgba(0, 218, 255, 1);
+}
+
+.light_blue_15 {
+  color: rgba(0, 218, 255, 0.15);
+}
+
+
+
+

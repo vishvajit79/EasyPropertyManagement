@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container-fluid p-5">
+  <div class="row mb-5">
+    <div class="col-md-12 text-center">
+      <h1 class="bold50 ocean_blue_100">Welcome to {{title}}</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h2 class="bold28 unique_green_100 mb-4">Properties:</h2>
+      <div class="input-group mb-3 col-md-4 offset-md-4">
+        <input [(ngModel)]="searchList" class="form-control light20 unique_green_100 text-center shadow bg-white rounded" placeholder="Search by property name or address">
+      </div>
+      <ul class="list-group col-md-6 offset-md-3 list-background">
+        <li class="list-group-item mb-2 shadow-sm bg-white rounded" *ngFor="let prop of properties | filter:searchList">
+            <a class="light20 ocean_blue_60" [href]="'/properties/' + prop._id">{{prop.name}}</a>
+            <p class="light20 unique_green_80">{{prop.address}}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
