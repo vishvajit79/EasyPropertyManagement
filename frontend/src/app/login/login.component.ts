@@ -1,12 +1,25 @@
-import { Component } from '@angular/core';
+import {Component, NgModule} from '@angular/core';
 import { AuthService } from '../core/auth.service'
 import { Router, Params } from '@angular/router';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import {FormBuilder, FormGroup, Validators, ReactiveFormsModule, FormsModule} from '@angular/forms';
+import {BrowserModule} from "@angular/platform-browser";
 
 @Component({
   selector: 'page-login',
   templateUrl: 'login.component.html',
   styleUrls: ['login.scss']
+})
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    FormsModule,
+    ReactiveFormsModule
+  ],
+  declarations: [
+    LoginComponent
+  ],
+  bootstrap: [LoginComponent]
 })
 export class LoginComponent {
 

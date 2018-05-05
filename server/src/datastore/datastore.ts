@@ -18,6 +18,10 @@ export class Collection<T> {
     private collectionFile: string = path.join(datadir, `${collection}.json`)
   ) { }
 
+    /**
+     *
+     * @returns {Promise<string>}
+     */
   private filestore(): Promise<string> {
     return new Promise<string>((resolve, reject) => {
       try {
@@ -32,6 +36,10 @@ export class Collection<T> {
     });
   }
 
+    /**
+     *
+     * @returns {Promise<T[]>}
+     */
   private async readFilestore(): Promise<T[]> {
     if (!!this.contents) {
       return this.contents;
@@ -43,12 +51,21 @@ export class Collection<T> {
     return this.contents;
   }
 
+    /**
+     *
+     * @returns {Promise<any>}
+     */
   private async writeFilestore(): Promise<any> {
     const file = await this.filestore();
     fs.writeFileSync(file, JSON.stringify(this.contents));
     this.contents = null;
   }
 
+    /**
+     *
+     * @param query
+     * @returns {Promise<T[]>}
+     */
   public async find(query?: any): Promise<T[]> {
     const data = await this.readFilestore();
     if (!query) {
@@ -71,6 +88,12 @@ export class Collection<T> {
     });
   }
 
+    /**
+     *
+     * @param value
+     * @param queryObj
+     * @returns {boolean}
+     */
   private executeConditions(value: any, queryObj: any): boolean {
     const queryKeys = _.keys(queryObj);
     return queryKeys.reduce((acc, key) => {
@@ -109,16 +132,31 @@ export class Collection<T> {
     }, true);
   }
 
+    /**
+     *
+     * @param {string} id
+     * @returns {Promise<T>}
+     */
   public async findById(id: string): Promise<T> {
     return this.first(e => (e as any)._id === id);
   }
 
+    /**
+     *
+     * @param {(elem: T) => boolean} predicate
+     * @returns {Promise<T>}
+     */
   public async first(predicate: (elem: T) => boolean): Promise<T> {
     const data = await this.readFilestore();
     const one = data.filter(predicate);
     return one.length === 0 ? null : one[0];
   }
 
+    /**
+     *
+     * @param {T} elem
+     * @returns {Promise<T>}
+     */
   public async insert(elem: T): Promise<T> {
     (elem as any)._id = shortid.generate();
     const data = await this.readFilestore();
@@ -127,6 +165,11 @@ export class Collection<T> {
     return elem;
   }
 
+    /**
+     *
+     * @param {T} elem
+     * @returns {Promise<T>}
+     */
   public async update(elem: T): Promise<T> {
     if (!(elem as any)._id) {
       throw new Error('Updating elements must have a valid _id');
@@ -141,6 +184,11 @@ export class Collection<T> {
     return elem;
   }
 
+    /**
+     *
+     * @param {T} elem
+     * @returns {Promise<void>}
+     */
   public async remove(elem: T) {
     this.contents.filter(e => {
       return (e as any)._id !== (elem as any)._id;
@@ -148,6 +196,10 @@ export class Collection<T> {
     await this.writeFilestore();
   }
 
+    /**
+     *
+     * @returns {Promise<void>}
+     */
   public async destroy() {
     this.contents = [];
     await this.writeFilestore();

@@ -10,6 +10,10 @@ class Collection {
         this.collection = collection;
         this.collectionFile = collectionFile;
     }
+    /**
+     *
+     * @returns {Promise<string>}
+     */
     filestore() {
         return new Promise((resolve, reject) => {
             try {
@@ -24,6 +28,10 @@ class Collection {
             }
         });
     }
+    /**
+     *
+     * @returns {Promise<T[]>}
+     */
     async readFilestore() {
         if (!!this.contents) {
             return this.contents;
@@ -34,11 +42,20 @@ class Collection {
         this.contents = contents;
         return this.contents;
     }
+    /**
+     *
+     * @returns {Promise<any>}
+     */
     async writeFilestore() {
         const file = await this.filestore();
         fs.writeFileSync(file, JSON.stringify(this.contents));
         this.contents = null;
     }
+    /**
+     *
+     * @param query
+     * @returns {Promise<T[]>}
+     */
     async find(query) {
         const data = await this.readFilestore();
         if (!query) {
@@ -58,6 +75,12 @@ class Collection {
             }, true);
         });
     }
+    /**
+     *
+     * @param value
+     * @param queryObj
+     * @returns {boolean}
+     */
     executeConditions(value, queryObj) {
         const queryKeys = _.keys(queryObj);
         return queryKeys.reduce((acc, key) => {
@@ -103,14 +126,29 @@ class Collection {
             throw new Error(`Unknown operator ${key}`);
         }, true);
     }
+    /**
+     *
+     * @param {string} id
+     * @returns {Promise<T>}
+     */
     async findById(id) {
         return this.first(e => e._id === id);
     }
+    /**
+     *
+     * @param {(elem: T) => boolean} predicate
+     * @returns {Promise<T>}
+     */
     async first(predicate) {
         const data = await this.readFilestore();
         const one = data.filter(predicate);
         return one.length === 0 ? null : one[0];
     }
+    /**
+     *
+     * @param {T} elem
+     * @returns {Promise<T>}
+     */
     async insert(elem) {
         elem._id = shortid.generate();
         const data = await this.readFilestore();
@@ -118,6 +156,11 @@ class Collection {
         await this.writeFilestore();
         return elem;
     }
+    /**
+     *
+     * @param {T} elem
+     * @returns {Promise<T>}
+     */
     async update(elem) {
         if (!elem._id) {
             throw new Error('Updating elements must have a valid _id');
@@ -131,12 +174,21 @@ class Collection {
         await this.writeFilestore();
         return elem;
     }
+    /**
+     *
+     * @param {T} elem
+     * @returns {Promise<void>}
+     */
     async remove(elem) {
         this.contents.filter(e => {
             return e._id !== elem._id;
         });
         await this.writeFilestore();
     }
+    /**
+     *
+     * @returns {Promise<void>}
+     */
     async destroy() {
         this.contents = [];
         await this.writeFilestore();
