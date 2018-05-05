@@ -21,3 +21,6 @@ Checkout the [frontend/README.md](https://github.com/suitespot/EasyPropertyManag
 ## LICENSE
 
 MIT
+
+## Authentication
+In order to access the application, please register your account or use Google Account.
