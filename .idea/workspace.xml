@@ -3,12 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c127fd7b-2925-42a1-878b-c5c0f2fda230" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/api/client/properties/property.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/api/client/properties/property.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/properties/property.dao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/properties/property.dao.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/properties/property.dao.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/properties/property.dao.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/properties/property.dao.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/properties/property.dao.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +22,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="properties.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/data/properties.json">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret column="14763" selection-start-column="14763" selection-end-column="14763" />
+            <state relative-caret-position="637">
+              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="propdetail.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="14" column="222" selection-start-line="14" selection-start-column="222" selection-end-line="14" selection-end-column="222" />
             </state>
           </provider>
         </entry>
@@ -64,7 +76,6 @@
         <option value="$PROJECT_DIR$/frontend/src/app/core/user.model.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/core/user.service.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/user/user.resolver.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.routes.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/user/user.component.html" />
@@ -82,12 +93,13 @@
         <option value="$PROJECT_DIR$/frontend/src/environments/environment.prod.ts" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/server/src/properties/property.dao.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/api/client/properties/property.service.ts" />
         <option value="$PROJECT_DIR$/server/data/properties.json" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.html" />
       </list>
     </option>
   </component>
@@ -252,31 +264,33 @@
       <workItem from="1525526681203" duration="30503000" />
       <workItem from="1525559148769" duration="1035000" />
       <workItem from="1525568825139" duration="728000" />
+      <workItem from="1525616969228" duration="9589000" />
+      <workItem from="1525626867539" duration="4196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48205000" />
+    <option name="totallyTimeSpent" value="61990000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21548998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22813489" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32982087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32982087" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32982087" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32982087" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32982087" />
@@ -306,10 +320,24 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/data/properties.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret column="14763" selection-start-column="14763" selection-end-column="14763" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/data/properties.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -343,9 +371,11 @@
           <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="n#ngOnInit#0;n#PropdetailComponent#0" expanded="true" />
+            <element signature="n#!!doc;n#requestIssue#0;n#PropdetailComponent#0" expanded="true" />
+            <element signature="e#2244#2245#0" expanded="true" />
+            <element signature="e#2283#2284#0" expanded="true" />
+            <element signature="e#2604#2605#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -355,13 +385,7 @@
         <state relative-caret-position="-132" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/.angular-cli.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-424">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/.angular-cli.json" />
     <entry file="file://$PROJECT_DIR$/server/dist/index.js" />
     <entry file="file://$PROJECT_DIR$/server/dist/properties/property.dao.js" />
     <entry file="file://$PROJECT_DIR$/server/dist/properties/property.service.js" />
@@ -426,20 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -493,9 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,13 +613,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/properties/property.dao.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -627,19 +627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <element signature="e#1021#1022#0" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="n#ngOnInit#0;n#PropdetailComponent#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/api/client/properties/property.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -651,9 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="e#88#138#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,19 +648,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/data/properties.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="457">
           <caret column="14763" selection-start-column="14763" selection-end-column="14763" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="45" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1341">
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <element signature="n#!!doc;n#requestIssue#0;n#PropdetailComponent#0" expanded="true" />
+            <element signature="e#2244#2245#0" expanded="true" />
+            <element signature="e#2283#2284#0" expanded="true" />
+            <element signature="e#2604#2605#0" expanded="true" />
+            <element signature="e#2648#2649#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="637">
+          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="14" column="222" selection-start-line="14" selection-start-column="222" selection-end-line="14" selection-end-column="222" />
         </state>
       </provider>
     </entry>

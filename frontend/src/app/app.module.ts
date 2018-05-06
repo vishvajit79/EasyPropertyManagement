@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
 import { AngularFireAuthModule } from 'angularfire2/auth';
+import { AngularFireDatabaseModule} from "angularfire2/database";
 import { environment } from '../environments/environment';
 import {RouterModule} from "@angular/router";
 import { LoginComponent } from './login/login.component';
@@ -22,6 +23,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { rootRouterConfig } from './app.routes';
 import { PropdetailComponent } from './propdetail/propdetail.component';
 import { AddPropertyComponent } from './add-property/add-property.component';
+import { SweetAlert2Module } from '@toverux/ngx-sweetalert2';
 
 
 @NgModule({
@@ -42,7 +44,9 @@ import { AddPropertyComponent } from './add-property/add-property.component';
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule, // imports firebase/firestore, only needed for database features
     AngularFireAuthModule, // imports firebase/auth, only needed for auth features,
-    RouterModule.forRoot(rootRouterConfig, { useHash: false })
+    RouterModule.forRoot(rootRouterConfig, { useHash: false }),
+    AngularFireDatabaseModule,
+    SweetAlert2Module.forRoot()
   ],
   providers: [AuthService, UserService, UserResolver, AuthGuard],
   bootstrap: [AppComponent]
