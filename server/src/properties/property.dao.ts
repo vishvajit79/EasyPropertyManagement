@@ -8,8 +8,8 @@ export class PropertyDAO {
   ) { }
 
   public async insert(property: Property): Promise<string> {
-    const result = await this.propertyCollection().insert(property);
-    return result._id;
+    await this.propertyCollection().insert(property);
+    return;
   }
 
   public async query(query: any, offset: number, limit: number): Promise<Property[]> {

@@ -49,6 +49,6 @@ export class PropertyService {
         'Content-Type':  'application/json'})
     };
     return this.http.post(NEW_PROPERTY_PATH, JSON.parse(JSON.stringify(property)), httpOptions)
-      .subscribe((res) => console.log(res));
+      .subscribe();
   }
 }

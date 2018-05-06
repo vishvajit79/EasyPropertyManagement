@@ -6,8 +6,8 @@ class PropertyDAO {
         this.db = db;
     }
     async insert(property) {
-        const result = await this.propertyCollection().insert(property);
-        return result._id;
+        await this.propertyCollection().insert(property);
+        return;
     }
     async query(query, offset, limit) {
         const properties = await this.propertyCollection().find(query);

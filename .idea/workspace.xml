@@ -3,10 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c127fd7b-2925-42a1-878b-c5c0f2fda230" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/e2e/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/e2e/app.e2e-spec.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/data/properties.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/data/properties.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/api/client/properties/property.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/api/client/properties/property.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/properties/property.dao.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/properties/property.dao.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/properties/property.dao.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/properties/property.dao.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/properties/property.dao.ts" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/properties/property.dao.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +25,7 @@
       <file leaf-file-name="properties.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server/data/properties.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
+            <state relative-caret-position="457">
               <caret column="14763" selection-start-column="14763" selection-end-column="14763" />
             </state>
           </provider>
@@ -62,29 +64,29 @@
         <option value="$PROJECT_DIR$/frontend/src/app/core/user.model.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/core/user.service.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/user/user.resolver.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.routes.ts" />
-        <option value="$PROJECT_DIR$/server/src/properties/property.dao.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/user/user.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.html" />
-        <option value="$PROJECT_DIR$/frontend/src/app/api/client/properties/property.service.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.ts" />
         <option value="$PROJECT_DIR$/server/src/properties/property.service.ts" />
         <option value="$PROJECT_DIR$/server/src/properties/property.controller.ts" />
         <option value="$PROJECT_DIR$/server/src/properties/property.model.ts" />
         <option value="$PROJECT_DIR$/server/src/datastore/datastore.ts" />
         <option value="$PROJECT_DIR$/server/src/index.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.component.spec.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/login/login.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/register/register.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/user/user.component.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.ts" />
         <option value="$PROJECT_DIR$/frontend/e2e/app.e2e-spec.ts" />
         <option value="$PROJECT_DIR$/frontend/src/environments/environment.prod.ts" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/server/src/properties/property.dao.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/api/client/properties/property.service.ts" />
         <option value="$PROJECT_DIR$/server/data/properties.json" />
       </list>
     </option>
@@ -124,78 +126,68 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="EasyPropertyManagement-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyPropertyManagement-master" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyPropertyManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyPropertyManagement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EasyPropertyManagement-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyPropertyManagement-master" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyPropertyManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyPropertyManagement" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EasyPropertyManagement-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyPropertyManagement-master" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="e2e" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyPropertyManagement-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyPropertyManagement-master" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyPropertyManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyPropertyManagement" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EasyPropertyManagement-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyPropertyManagement-master" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyPropertyManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyPropertyManagement" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EasyPropertyManagement-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyPropertyManagement-master" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="add-property" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyPropertyManagement-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyPropertyManagement-master" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyPropertyManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyPropertyManagement" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="propdetail" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="EasyPropertyManagement-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyPropertyManagement-master" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyPropertyManagement-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyPropertyManagement-master" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EasyPropertyManagement-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EasyPropertyManagement-master" type="462c0819:PsiDirectoryNode" />
+              <item name="EasyPropertyManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyPropertyManagement" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyPropertyManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyPropertyManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyPropertyManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyPropertyManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EasyPropertyManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EasyPropertyManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="properties" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,31 +251,32 @@
       <workItem from="1525525810339" duration="488000" />
       <workItem from="1525526681203" duration="30503000" />
       <workItem from="1525559148769" duration="1035000" />
+      <workItem from="1525568825139" duration="728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47477000" />
+    <option name="totallyTimeSpent" value="48205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="0" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21548998" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21548998" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32982087" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32982087" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32982087" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.32982087" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32982087" />
@@ -317,6 +310,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/server/data/properties.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret column="14763" selection-start-column="14763" selection-end-column="14763" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/register/register.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -343,6 +343,8 @@
           <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
             <element signature="n#ngOnInit#0;n#PropdetailComponent#0" expanded="true" />
           </folding>
         </state>
@@ -360,41 +362,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/dist/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/dist/properties/property.dao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/dist/properties/property.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="47" lean-forward="true" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/dist/properties/property.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/dist/datastore/datastore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/server/dist/index.js" />
+    <entry file="file://$PROJECT_DIR$/server/dist/properties/property.dao.js" />
+    <entry file="file://$PROJECT_DIR$/server/dist/properties/property.service.js" />
+    <entry file="file://$PROJECT_DIR$/server/dist/properties/property.controller.js" />
+    <entry file="file://$PROJECT_DIR$/server/dist/datastore/datastore.js" />
     <entry file="file://$PROJECT_DIR$/frontend/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -422,9 +394,6 @@
           <caret line="15" column="91" selection-start-line="15" selection-start-column="91" selection-end-line="15" selection-end-column="91" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/core/auth.guard.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/core/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -457,13 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="32" column="3" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -478,27 +440,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/api/client/api-client.module.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/properties/property.dao.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/api/client/properties/property.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -513,20 +458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/properties/property.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="41" column="19" lean-forward="true" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/datastore/datastore.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="214" selection-start-line="214" selection-end-line="214" />
         </state>
       </provider>
     </entry>
@@ -551,23 +482,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
-          <folding>
-            <element signature="e#88#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/app.routes.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="15" column="93" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -601,33 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-            <element signature="n#ngOnInit#0;n#PropdetailComponent#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/e2e/app.e2e-spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -672,16 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="23" column="77" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
@@ -711,9 +596,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/properties/property.dao.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/datastore/datastore.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="152" column="3" lean-forward="true" selection-start-line="152" selection-start-column="3" selection-end-line="152" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/propdetail/propdetail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+            <element signature="n#ngOnInit#0;n#PropdetailComponent#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/api/client/properties/property.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="e#88#138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/properties/property.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/add-property/add-property.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server/data/properties.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="457">
           <caret column="14763" selection-start-column="14763" selection-end-column="14763" />
         </state>
       </provider>

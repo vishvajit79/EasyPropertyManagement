@@ -34,7 +34,6 @@ export class PropdetailComponent implements OnInit {
     propertyService.queryProperties({_id: this.propId}, {limit: 1, offset: 0})
       .subscribe(property => {
         this.propDetail = property;
-        console.log(this.propDetail);
       });
 
   }
